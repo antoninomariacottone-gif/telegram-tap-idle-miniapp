@@ -36,6 +36,13 @@ Apri `apps/web` in Telegram (o browser) e usa l’URL `wrangler dev` come API ba
 - API: Cloudflare Workers (wrangler deploy)
 - DB: D1
 
+### Cloudflare Pages (web)
+Config consigliata del progetto Pages:
+- Root directory: `apps/web`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Deploy command: **vuoto** (Pages pubblica automaticamente lo statico)
+
 ### TON Connect
 - Aggiorna `apps/web/public/tonconnect-manifest.json` (`url` e `iconUrl`) quando hai il dominio definitivo.
 
