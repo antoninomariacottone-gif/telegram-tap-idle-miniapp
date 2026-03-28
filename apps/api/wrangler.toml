@@ -1,0 +1,15 @@
+name = "tap-idle-api"
+main = "src/index.ts"
+compatibility_date = "2026-03-28"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tap_idle_db"
+# Replace with your real database id after: wrangler d1 create tap_idle_db
+database_id = "REPLACE_ME"
+migrations_dir = "migrations"
+
+[vars]
+# Lock CORS to your Pages domain in production.
+ALLOWED_ORIGIN = "http://localhost:5173"
+

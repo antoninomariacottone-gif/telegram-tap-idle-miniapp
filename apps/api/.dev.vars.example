@@ -1,0 +1,5 @@
+# Used by wrangler dev (copy to .dev.vars)
+BOT_TOKEN=123:ABC
+JWT_SECRET=change_me
+ALLOWED_ORIGIN=http://localhost:5173
+
